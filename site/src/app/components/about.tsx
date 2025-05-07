@@ -7,11 +7,11 @@ export default function About({ language }: { language: "en" | "es" }) {
       <p>
         {language === "en" ? (
           <>
-            I'm a Full Stack Developer with a strong focus on DevOps, infrastructure, and security.
-            Over the past 4 years, I've specialized in bringing systems together from the ground up —
+            I&apos;m a Full Stack Developer with a strong focus on DevOps, infrastructure, and security.
+            Over the past 4 years, I&apos;ve specialized in bringing systems together from the ground up —
             from OS selection and image customization to deployment automation and validation,
             primarily on AWS. My experience includes resolving critical CVEs for SOC 2 compliance,
-            which strengthened my cybersecurity expertise. I’m passionate about designing reliable,
+            which strengthened my cybersecurity expertise. I&apos;m passionate about designing reliable,
             maintainable systems that are secure by default and easy to operate.
           </>
         ) : (

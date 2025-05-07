@@ -42,7 +42,7 @@ export default function Skills({ language }: { language: "en" | "es" }) {
           <div key={category}>
             <h3 className="font-medium mb-1">{category}</h3>
             <ul className="list-disc list-inside space-y-0.5">
-              {items.map((item: any) => (
+              {(items as string[]).map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
