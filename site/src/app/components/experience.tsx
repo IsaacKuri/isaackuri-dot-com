@@ -16,10 +16,10 @@ export default function Experience({ language }: { language: "en" | "es" }) {
           {language === "en" ? (
             <>
               <li>Developed and maintained backend and frontend applications using Ruby on Rails and React.</li>
-              <li>Built check-in kiosks and custom display apps using P5.js for real-time interaction.</li>
+              <li>Built check-in kiosks and custom display apps using React and P5.js for real-time interaction.</li>
               <li>Dockerized the full production stack to replicate it for local development and onboarding.</li>
-              <li>Upgraded core systems and libraries (Ubuntu 20.04 → 24.04, Rails 6.x → 7.1).</li>
-              <li>Migrated legacy front-end codebases (Sprockets with CoffeeScript → Importmaps with modern JavaScript).</li>
+              <li>Led full-stack migrations, including OS, application frameworks, and deployment pipelines, ensuring service continuity throughout.</li>
+              <li>Led the modernization of a substantial legacy frontend stack, transitioning to a modular JavaScript setup and streamlining long-term development workflows.</li>
               <li>Resolved CVEs by auditing dependencies and removing insecure packages for SOC2 compliance.</li>
               <li>Automated deployment pipelines using AWS EC2, Auto Scaling Groups, and CodePipeline.</li>
               <li>Wrote Bash and Python scripts for service health checks, rollback logic, and server setup automation.</li>
@@ -27,10 +27,10 @@ export default function Experience({ language }: { language: "en" | "es" }) {
           ) : (
             <>
               <li>Desarrollé y mantuve aplicaciones backend y frontend usando Ruby on Rails y React.</li>
-              <li>Construí kioscos de registro y aplicaciones de visualización personalizadas con P5.js.</li>
+              <li>Construí kioscos de registro y aplicaciones de visualización personalizadas con React y P5.js.</li>
               <li>Dockericé todo el stack de producción para replicarlo en entornos locales de desarrollo y facilitar la incorporación.</li>
-              <li>Actualicé sistemas y bibliotecas clave (Ubuntu 20.04 → 24.04, Rails 6.x → 7.1).</li>
-              <li>Migré bases de código de legado (Sprockets con CoffeeScript → Importmaps con JavaScript moderno).</li>
+              <li>Lideré migraciones de stack completa, incluyendo sistema operativo, frameworks de aplicación y procesos de despliegue, asegurando la continuidad del servicio en todo momento.</li>
+              <li>Lideré la modernización de un stack frontend de legado de gran tamaño, realizando la transición a una arquitectura modular en JavaScript y optimizando los flujos de trabajo a largo plazo.</li>
               <li>Eliminé vulnerabilidades (CVEs) mediante auditorías de dependencias y limpieza de paquetes inseguros acorde a SOC2.</li>
               <li>Automatizé pipelines de despliegue usando AWS EC2, Auto Scaling Groups y CodePipeline.</li>
               <li>Escribí scripts en Bash y Python para validaciones de salud, lógicas de rollback y automatización de configuración.</li>
